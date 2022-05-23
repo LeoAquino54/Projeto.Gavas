@@ -1,17 +1,25 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+  <ion-card >
+    <ion-item class="ss" lines="none">
+      <ion-thumbnail  slot="start">
+        <img
+          src="https://gavas.org.br/wp-content/uploads/2020/09/logo-gavas.png"
+          />
+      </ion-thumbnail>
+      <ion-label >Conheça nosso site</ion-label>
+    </ion-item>
+  </ion-card>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      class="img-item"
+      src="https://gavas.org.br/wp-content/uploads/2020/09/logo-gavas.png"
+      alt="Imagem Solidariedade"
+    />
+    <p class="texto-item">
+      Após um ano de estudos sobre a proteção animal mundo afora, um grupo de protetores independentes de Santa Fé do Sul (SP) se organizou formalmente em 2006 para constituir o GAVAS.. 🙏
+    </p>
+  </div>
 </ion-content>

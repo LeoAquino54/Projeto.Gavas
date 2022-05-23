@@ -24,3 +24,63 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-font-family: 'Varela Round', sans-serif;
+    /* barra superior */
+    --ion-toolbar-background: #ff9100;
+    --ion-toolbar-color: #050505;
+  
+    --ion-background-color: linear-gradient(180deg, #ff9100 0%, #cec5bd 100%);
+  
+    /* barra inferior */
+    --ion-tab-bar-background: #ff9100;
+    --ion-tab-bar-color: #ffffff;
+    --ion-tab-bar-color-selected: #050505;
+  }
+  :root{
+    --ion-card-background: linear-gradient(139deg,#d39861 0%,transparent 100%);
+    --ion-item-background: transparent;
+  }
+  .ss{
+    
+    animation: ss 5s infinite alternate;
+}
+  .img-item{
+    padding: 15px;
+    padding-bottom: 50px;
+    padding-top:  40px;
+    padding-right: 0px;
+    padding-left: 90px;
+    width: 200%;
+    max-width: 300px;
+
+    animation: del 10s infinite alternate;
+}
+
+  @keyframes ss {
+
+    0% {
+      transform: translate(0px, 2px);
+    }
+  
+    100% {
+      transform: translate(0px, -2px);
+    }
+  }
+  
+  @keyframes del {
+  
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+  
+    50% {
+      transform: rotate(1deg) scale(1.02);
+    }
+  
+    100% {
+      transform: rotate(-1deg) scale(1.04);
+    }
+  }
+  

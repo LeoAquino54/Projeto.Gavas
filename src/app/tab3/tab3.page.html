@@ -1,17 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      class="img-item"
+      src="https://drive.google.com/uc?id=1sHTj2Q5mnvQ7tGNRqc0zhGZLBBJjlP5V"
+      alt="Imagem Solidariedade"
+    />
+    <p class="texto-item">
+      Quer nos ajudar? Podemos te explicar! Preencha os campos e fale com
+      um voluntário. 🙏
+    </p>
+    <ion-button (click)="whats()" expand="block" type="submit"
+      >Falar com Voluntario</ion-button
+    >
+  </div>
 </ion-content>
